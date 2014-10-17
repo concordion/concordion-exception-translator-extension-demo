@@ -17,17 +17,10 @@ public abstract class GoogleFixture {
 	protected GoogleSearchPage searchPage;
 
     GoogleFixture() {
-        this(false);
+        browser = new Browser();
+		searchPage = new GoogleSearchPage(browser.getDriver());
     }
     
-	GoogleFixture(boolean logWebDriverEvents) {
-		browser = new Browser();
-        if (logWebDriverEvents) {
-            browser.addLogger();
-        }
-		searchPage = new GoogleSearchPage(browser.getDriver());	
-	}
-	
 	@After
 	public void close() {
 		browser.close();

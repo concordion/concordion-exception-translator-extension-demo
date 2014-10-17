@@ -3,7 +3,7 @@ package org.concordion.ext.demo.selenium;
 import org.concordion.api.ExpectedToFail;
 import org.concordion.api.extension.ConcordionExtension;
 import org.concordion.api.extension.Extension;
-import org.concordion.ext.TranslatorExtension;
+import org.concordion.ext.ExceptionTranslatorExtension;
 import org.concordion.ext.selenium.SeleniumExceptionMessageTranslator;
 import org.concordion.ext.translator.MessageTranslator;
 import org.concordion.integration.junit4.ConcordionRunner;
@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
 @ExpectedToFail
 public class ExceptionTranslatorDemo extends GoogleFixture {
 	@Extension
-	public ConcordionExtension translator = new TranslatorExtension(new SeleniumExceptionMessageTranslator());
+	public ConcordionExtension translator = new ExceptionTranslatorExtension(new SeleniumExceptionMessageTranslator());
 
 	/**
 	 * Searches for the specified topic, and waits for the results page to load.
