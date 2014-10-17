@@ -45,12 +45,6 @@
       <artifactId>concordion</artifactId>
       <version>${concordion.version}</version>
       <scope>test</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>xml-apis</groupId>
-          <artifactId>xml-apis</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
 
     <dependency>
@@ -65,11 +59,7 @@
       <artifactId>selenium-java</artifactId>
       <version>${selenium.version}</version>
       <scope>test</scope>
-      <type>pom</type>
     </dependency>
-
-    
-    
   </dependencies>
 
   <build>

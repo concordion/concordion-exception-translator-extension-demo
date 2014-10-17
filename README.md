@@ -1,7 +1,7 @@
 Introduction
 ------------------
 
-This project demonstrates the usage of the [Concordion](http://concordion.org) [Excception Translator Extension](http://github.com/concordion/concordion-exception-translator-extension) with [Selenium WebDriver](http://docs.seleniumhq.org/projects/webdriver/).
+This project demonstrates the usage of the [Concordion](http://concordion.org) [Exception Translator Extension](http://github.com/concordion/concordion-exception-translator-extension) with [Selenium WebDriver](http://docs.seleniumhq.org/projects/webdriver/).
 
 Example output is shown [here](http://concordion.github.io/concordion-exception-translator-extension-demo/spec/ExceptionTranslatorDemo.html).
 
@@ -14,13 +14,11 @@ The download includes support to run the tests with either <a href="http://www.g
     
 ### Using Gradle
 1. [Download](http://www.gradle.org/downloads.html) and [install](http://www.gradle.org/installation.html) Gradle (this has been tested with 2.1)
-1. Unzip this package
 1. From a command line opened at the location to which this package has been unzipped, run `gradle clean test`
 1. View the Concordion output under the subfolder `build/reports/spec/org/concordion/ext/demo/selenium/`
     
 ### Using Maven
 1. Download and install maven (this has been tested with 3.0.3)
-1. Unzip this package
 1. From a command line opened at the location to which this package has been unzipped, run `mvn test`
 1. View the Concordion output under the subfolder `target/concordion/org/concordion/ext/demo/selenium/`
 
@@ -29,13 +27,12 @@ Import as a Gradle or as a Maven project. This may require additional plugins to
 
 Under the `src/test/java` folder, find the `ExceptionTranslatorDemo` class in the `org.concordion.ext.demo.selenium` package and run as a JUnit test. The location of the Concordion output is shown on the standard output console.
 
-
 What you should see
 --------------------------------
-The tests will open a Firefox browser at the Google home page.
+The test will open a Firefox browser at the Google home page.
     
 ### JUnit output
-The tests should pass successfully, though the console output will show an exception with the message:
+The test should pass successfully, though the console output will show an exception with the message:
 
 > <-- Note: This test has been marked as EXPECTED_TO_FAIL
 

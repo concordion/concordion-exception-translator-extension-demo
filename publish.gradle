@@ -14,7 +14,7 @@ buildscript {
 apply plugin: 'org.ajoberstar.github-pages'
 
 githubPages {
-    repoUri = 'git@github.com:concordion/concordion-screenshot-extension-demo.git'      
+    repoUri = 'git@github.com:concordion/concordion-exception-translator-extension-demo.git'      
     pages {
         from ('build/reports/spec/org/concordion/ext/demo/selenium') {
             into 'spec'
