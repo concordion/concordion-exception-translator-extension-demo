@@ -1,8 +1,14 @@
+# Gradle
 /.gradle
-/target
+/build
 
-/.settings
+# Eclipse
 /.classpath
 /.project
+/.settings
 /bin
-/build
+/target
+
+# IDEA
+.idea/
+*.iml
