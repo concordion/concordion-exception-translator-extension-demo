@@ -1,8 +1,8 @@
 sudo: false
+dist: trusty
 language: java
 jdk:
 - oraclejdk8
-- oraclejdk7
 env:
   global:
   - secure: JH30TVs4s3V2rJ6WCg6Ycoreb/EH6ugnOI0IGLrz93iEkDc71AFpPotCgyjLFqoGv2np2Z2Dym0Q8kqCoC4VmivNWQcWW6JHse+iqpuA6DQQQ5+s6CEXpYxtgtZUhjOuOj+dw6CyJGwiZgIiokj4Zov1mxjdRro0PNKrfVZCx18=
