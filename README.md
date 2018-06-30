@@ -4,7 +4,7 @@
 Introduction
 ------------------
 
-This project demonstrates the usage of the [Concordion](http://concordion.org) [Exception Translator Extension](http://github.com/concordion/concordion-exception-translator-extension) with [Selenium WebDriver](http://docs.seleniumhq.org/projects/webdriver/).
+This project demonstrates the usage of the [Concordion](https://concordion.org) [Exception Translator Extension](http://github.com/concordion/concordion-exception-translator-extension) with [Selenium WebDriver](http://docs.seleniumhq.org/projects/webdriver/).
 
 Example output is shown [here](http://concordion.github.io/concordion-exception-translator-extension-demo/spec/org/concordion/ext/demo/selenium/ExceptionTranslatorDemo.html).
 
