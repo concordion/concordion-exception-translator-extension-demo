@@ -12,6 +12,9 @@ env:
 addons:
   chrome: stable
 before_install:
+  #Temp workaround to public key error on sudo apt-get update
+  - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 78BD65473CB3BD13
+  - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6B05F25D762E3157
   - sudo apt-get update
   - sudo apt-get install chromium-chromedriver    
 before_script:
