@@ -15,13 +15,14 @@ ext {
 	concordionVersion = "2.2.0"
 	concordionTranslatorVersion = "[1.1.2,)"	
 	seleniumVersion = "3+"	
-	slf4jVersion = "1.7.25"	
+    wdmVersion = "4.+"
 }
 
 dependencies {
     testCompile "org.concordion:concordion:$concordionVersion",
                 "org.concordion:concordion-exception-translator-extension:$concordionTranslatorVersion",
-                "org.seleniumhq.selenium:selenium-java:$seleniumVersion"
+                "org.seleniumhq.selenium:selenium-java:$seleniumVersion",
+                "io.github.bonigarcia:webdrivermanager:$wdmVersion"
 }
 
 test {
